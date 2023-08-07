@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+    <% if (locals.locationIss.data.visibility !== "eclipsed") { %>
+    <h1 class="placeholder">ISS</h1>
+    <% } else { %>
+    <h1 class="placeholderE">ISS</h1>
+    <% } %>
+
+    <% if (locals.locationIss) { %> 
+    <p> <%= locationIss.data.latitude %>, <%= locationIss.data.longitude %> </p>
+    <p> <%= locationIss.data.visibility %> </p>
+    <% } %>
+
+    <h1 class="placeholderII">ISS</h1>
+
+    <p id="𝝅" onclick="window.location.href='/pi'">𝝅</p>
+<%- include("partials/footer.ejs") %>

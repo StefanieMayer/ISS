@@ -1,0 +1,61 @@
+html{
+    background-color: rgb(0, 0, 18);
+    color: cornflowerblue;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+.placeholder{
+    color: rgb(0, 0, 18);
+    font-family: "Times New Roman", serif;
+    font-size: 150px;
+}
+
+.placeholder:hover{
+    color: rgba(100, 148, 237, 0.252);
+    font-family: "Times New Roman", serif;
+    font-size: 150px;
+}
+
+.placeholderE{
+    color: rgb(0, 0, 18);
+    font-family: "Times New Roman", serif;
+    font-size: 150px;
+}
+
+.placeholderI{
+    color: rgb(0, 0, 18);
+    font-family: "Times New Roman", serif;
+    font-size: 140px;
+}
+
+.placeholderII{
+    color: rgb(0, 0, 18);
+    font-family: "Times New Roman", serif;
+    font-size: 80px;
+}
+
+.footer{
+    color: rgb(0, 0, 18);
+    font-size: 12px;
+}
+
+.pText{
+    color: rgb(0, 0, 18);
+}
+
+.returnFlight{
+    color: #00FD00;
+}
+
+#𝝅{
+    color: #00FD00;
+    text-align: right;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
