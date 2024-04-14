@@ -1,4 +1,4 @@
-<h2> Live coordinates of the ISS location and live check of the visibility </h2> <br> <br> 
+<h3> Live coordinates of the ISS location and check of the visibility </h3>
 
 copy and paste the folders and files into your VSC (Visual Studio Code) <br> <br>
 
