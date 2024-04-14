@@ -13,4 +13,7 @@ after "main": "index.js", write: <br>
 
 
 run node.js with: <br>
-nodemon index.js
+nodemon index.js <br> <br>
+
+in your browser: <br>
+localhost:3000
