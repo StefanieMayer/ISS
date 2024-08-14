@@ -15,8 +15,11 @@ let locationIssPositions;
 
 app.get("/", async (req, res) => {
     try {
-        const result = await axios.get("https://api.wheretheiss.at/v1/satellites" + "/25544")
+        const result = await axios.get("https://api.wheretheiss.at/v1/satellites/25544")
         console.log(result);
+        if (!result.data) {
+            throw new Error('missing data');
+        }
         res.render("index.ejs", {
             locationIss: result,
         });
